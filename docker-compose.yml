@@ -1,0 +1,12 @@
+version: "3"
+services:
+  localstack:
+    image: localstack/localstack:latest
+    container_name: hs-tracker-localstack
+    ports:
+    - "4566:4566"
+    - "8085:8080"
+    environment:
+      - SERVICES=dynamodb
+    volumes:
+    - "./localstack/run.sh:/docker-entrypoint-initaws.d/run.sh"
