@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "blizzard.api.client-secret",
+      "type": "java.lang.String",
+      "description": "Blizzard client secret API"
+    },
+    {
+      "name": "blizzard.api.client-id",
+      "type": "java.lang.String",
+      "description": "Blizzard client id for API"
+    },
+    {
+      "name": "blizzard.api.url",
+      "type": "java.lang.String",
+      "description": "Description for blizzard.api.url."
+    },
+    {
+      "name": "blizzard.api.url-auth",
+      "type": "java.lang.String",
+      "description": "Description for blizzard.api.url-auth."
+    }
+  ] }

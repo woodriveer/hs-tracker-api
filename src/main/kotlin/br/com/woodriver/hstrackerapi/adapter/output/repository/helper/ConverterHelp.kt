@@ -1,5 +1,6 @@
 package br.com.woodriver.hstrackerapi.adapter.output.repository.helper
 
+import br.com.woodriver.hstrackerapi.adapter.output.repository.HeroEntity
 import br.com.woodriver.hstrackerapi.adapter.output.repository.UserEntity
 import br.com.woodriver.hstrackerapi.adapter.output.repository.UserEntity.Companion.USER_INFO
 import br.com.woodriver.hstrackerapi.application.domain.Hero
@@ -22,5 +23,21 @@ fun UserEntity.toDomain(): User {
     return User(
         id = userId,
         heroes = mapHeroes.toHeroHashMap()
+    )
+}
+
+fun Hero.toEntity(): HeroEntity =
+    HeroEntity(
+        heroId = heroId,
+        heroName = name,
+        portraitURL = portraitURL
+    )
+
+fun HeroEntity.toDomain(): Hero {
+    return Hero(
+        name = heroName,
+        completed = false,
+        portraitURL = portraitURL,
+        heroId = heroId
     )
 }

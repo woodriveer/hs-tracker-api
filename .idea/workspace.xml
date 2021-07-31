@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89d805ec-44de-479b-9c8b-c61746c8ee19" name="Default Changelist" comment="Added project to git">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_12_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_dynamodb_1_12_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kms_1_12_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_s3_1_12_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_12_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_reflect_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tracker-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/api/HeroesAPI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/controller/HeroesController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/request/HeroResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/request/HeroesResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/HeroInfoClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/client/BlizzardAPI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/client/BlizzardAuthClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/config/BlizzardAPIConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/config/BlizzardAuthConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/config/BlizzardProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/response/BlizzardAuthResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/response/BlizzardHeroResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/HeroEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Heroes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/port/input/GetAllHeroesUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/port/input/HeroInfoByNameUseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/port/output/HeroInfoPort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/service/HeroService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/HsTrackerApiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/HsTrackerApiApplicationKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/api/TrackerAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/controller/TrackerController$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/controller/TrackerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelpKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/request/HeroRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/response/CompletedHeroesResponse$HeroesResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/response/CompletedHeroesResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/UserEntity$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/helper/ConverterHelpKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/port/input/ConsultCompletedHeroesUseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/port/input/MarkHeroHasCompletedUseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/port/input/MarkHeroHasIncompleteUseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/port/output/RepositoryPort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/exceptions/UnauthorizedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/shared/JsonExtensionsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/shared/LoggerExtensionsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/hs-tracker-api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/br/com/woodriver/hstrackerapi/HsTrackerApiApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localstack/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/localstack/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/HsTrackerApiApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/HsTrackerApiApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/helper/ConverterHelp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/helper/ConverterHelp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Hero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Hero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/port/output/RepositoryPort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/port/output/RepositoryPort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/service/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/service/UserService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Annotation" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1up8xVBS63c1YO0VhIQdM6YrewX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.woodriver.hstrackerapi.adapter.output.feign.client" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="br.com.woodriver.hstrackerapi.adapter.output.repository" />
+      <recent name="br.com.woodriver.hstrackerapi.adapter.output.feign.response" />
+      <recent name="br.com.woodriver.hstrackerapi.adapter.output.feign.config" />
+      <recent name="br.com.woodriver.hstrackerapi.application.port.input" />
+      <recent name="br.com.woodriver.hstrackerapi.adapter.in.web.api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HsTrackerApiApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HsTrackerApiApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="hs-tracker-api" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="br.com.woodriver.hstrackerapi.HsTrackerApiApplicationKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hs-tracker-api [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="HsTrackerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hs-tracker-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.woodriver.hstrackerapi.HsTrackerApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Application.HsTrackerApiApplicationKt" />
+      <item itemvalue="Maven.hs-tracker-api [clean,install]" />
+      <item itemvalue="Spring Boot.HsTrackerApiApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HsTrackerApiApplicationKt" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89d805ec-44de-479b-9c8b-c61746c8ee19" name="Default Changelist" comment="" />
+      <created>1625351417701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625351417701</updated>
+      <workItem from="1625351419147" duration="26000" />
+      <workItem from="1625351456936" duration="20000" />
+      <workItem from="1625351487865" duration="192000" />
+      <workItem from="1625374657235" duration="2815000" />
+      <workItem from="1625381227138" duration="2977000" />
+      <workItem from="1625384229419" duration="1015000" />
+      <workItem from="1625422763394" duration="279000" />
+      <workItem from="1625423065118" duration="2151000" />
+      <workItem from="1625425224421" duration="7385000" />
+      <workItem from="1625453751228" duration="4540000" />
+      <workItem from="1625460185371" duration="296000" />
+      <workItem from="1625460497279" duration="3635000" />
+      <workItem from="1625499537711" duration="3492000" />
+      <workItem from="1625524150115" duration="8934000" />
+      <workItem from="1625543888452" duration="1896000" />
+      <workItem from="1625622640653" duration="4870000" />
+      <workItem from="1625704023280" duration="22642000" />
+      <workItem from="1626110658712" duration="11124000" />
+      <workItem from="1626248323500" duration="90000" />
+      <workItem from="1626732385429" duration="5040000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added project to git">
+      <created>1625698848865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625698848865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added project to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added project to git" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/jwt/aspect/ClaimUserIdAspect.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/jwt/aspect/ClaimUserIdAspect.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/shared/JsonExtensions.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Hero.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/HeroInfoClient.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hs_tracker_api$HsTrackerApiApplicationKt.ic" NAME="HsTrackerApiApplicationKt Coverage Results" MODIFIED="1625537404348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

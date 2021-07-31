@@ -1,7 +1,10 @@
 package br.com.woodriver.hstrackerapi.adapter.input.web.helper
 
 import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroRequest
+import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroResponse
+import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroesResponse
 import br.com.woodriver.hstrackerapi.adapter.input.web.response.CompletedHeroesResponse
+import br.com.woodriver.hstrackerapi.adapter.output.feign.response.BlizzardHeroResponse
 import br.com.woodriver.hstrackerapi.application.domain.Hero
 import br.com.woodriver.hstrackerapi.application.domain.User
 import com.auth0.jwt.JWT
@@ -22,9 +25,34 @@ fun HeroRequest.toDomain(token: String) = User(
     heroes = hashMapOf(Pair(heroName, Hero(heroName, true)))
     )
 
+fun String.toHeroDomain(): Hero =
+    Hero(name = this, completed = false, heroId = this)
+
 private fun getUserIdFromToken(token: String): String{
     val jwt = JWT.decode(token)
     return jwt.getClaim(CLAIM_USER_ID).asString()
 }
+
+fun Hero.toResponse(): HeroResponse =
+    HeroResponse(
+        heroId = heroId,
+        heroName = name,
+        portraitURL = portraitURL
+    )
+
+fun List<Hero>.toResponse(): HeroesResponse =
+    HeroesResponse(
+        heroes = map {
+            it.toResponse()
+        }
+    )
+
+fun BlizzardHeroResponse.toDomain(): Hero =
+    Hero(
+        name = name,
+        completed = false,
+        heroId = slug,
+        portraitURL = imageGold
+    )
 
 const val CLAIM_USER_ID = "userId"
