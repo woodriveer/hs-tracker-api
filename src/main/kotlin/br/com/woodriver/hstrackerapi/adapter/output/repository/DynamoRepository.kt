@@ -19,7 +19,11 @@ class DynamoRepository(val amazonDynamoDB: AmazonDynamoDB): RepositoryPort {
             .withHashKeyValues(entity)
 
         val result = mapper.query(UserEntity::class.java, query)
-        return result.first().toDomain()
+        return try {
+            result.first().toDomain()
+        } catch (ex: Exception) {
+            entity.toDomain()
+        }
     }
 
     override fun save(user: User) {

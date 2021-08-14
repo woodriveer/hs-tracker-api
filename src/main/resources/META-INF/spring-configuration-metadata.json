@@ -1,0 +1,12 @@
+{
+  "properties": [
+    {
+      "name": "aws.dynamo.secret",
+      "type": "java.lang.String",
+      "description": "Description for aws-dynamo.secret."
+  },{
+      "name": "aws.dynamo.key",
+      "type": "java.lang.String",
+      "description": "Description for aws-dynamo.secret."
+    }
+] }

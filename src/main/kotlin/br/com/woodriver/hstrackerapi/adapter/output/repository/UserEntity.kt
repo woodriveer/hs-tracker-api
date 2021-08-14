@@ -13,7 +13,7 @@ open class UserEntity(
     @DynamoDBRangeKey(attributeName = "Type")
     var type: String = Strings.EMPTY,
     @DynamoDBAttribute(attributeName = "Heroes")
-    var heroes: String = Strings.EMPTY
+    var heroes: String = "{}"
 ) {
     companion object {
         const val USER_INFO = "user-info"
