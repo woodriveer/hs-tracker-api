@@ -1,6 +1,5 @@
 package br.com.woodriver.hstrackerapi.adapter.output.repository
 
-import br.com.woodriver.hstrackerapi.adapter.output.repository.BlizzardHeroEntity.Companion.HERO_INFO
 import br.com.woodriver.hstrackerapi.adapter.output.repository.UserEntity.Companion.USER_INFO
 import br.com.woodriver.hstrackerapi.adapter.output.repository.helper.toDomain
 import br.com.woodriver.hstrackerapi.adapter.output.repository.helper.toEntity
@@ -11,7 +10,6 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDB
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBQueryExpression
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBScanExpression
-import com.amazonaws.services.dynamodbv2.model.AttributeValue
 import org.springframework.stereotype.Repository
 
 @Repository

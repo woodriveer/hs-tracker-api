@@ -1,13 +1,14 @@
 package br.com.woodriver.hstrackerapi.adapter.input.web.helper
 
+import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroIdRequest
 import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroRequest
 import br.com.woodriver.hstrackerapi.adapter.input.web.response.CompletedHeroesResponse
+import br.com.woodriver.hstrackerapi.adapter.input.web.response.HeroResponse
 import br.com.woodriver.hstrackerapi.adapter.input.web.response.HeroesResponse
 import br.com.woodriver.hstrackerapi.application.domain.BlizzardHero
 import br.com.woodriver.hstrackerapi.application.domain.Hero
 import br.com.woodriver.hstrackerapi.application.domain.User
 import com.auth0.jwt.JWT
-import org.apache.logging.log4j.util.Strings
 import org.apache.logging.log4j.util.Strings.EMPTY
 
 fun String.toDomain() = User(id = getUserIdFromToken(this), hashMapOf())
@@ -26,11 +27,11 @@ fun HeroRequest.toDomain(token: String) = User(
     heroes = hashMapOf(Pair(heroName, Hero(heroName, true)))
     )
 
-fun HeroRequest.toDomainBlizzardHero(): BlizzardHero =
+fun HeroIdRequest.toDomain(): BlizzardHero =
         BlizzardHero(
-                heroId = heroName,
-                name = EMPTY,
-                imageUrl = EMPTY
+            heroId = heroId,
+            name = EMPTY,
+            imageURL = EMPTY
         )
 
 fun List<BlizzardHero>.toResponse(): List<HeroesResponse> =
@@ -38,10 +39,17 @@ fun List<BlizzardHero>.toResponse(): List<HeroesResponse> =
             it.toResponse()
         }
 
+fun BlizzardHero.toHeroResponse(): HeroResponse =
+    HeroResponse(
+        heroName = name,
+        heroId = heroId,
+        imageURL = imageURL
+    )
+
 fun BlizzardHero.toResponse(): HeroesResponse =
         HeroesResponse(
                 name = name,
-                imageUrl = imageUrl,
+                imageUrl = imageURL,
                 heroId = heroId
         )
 

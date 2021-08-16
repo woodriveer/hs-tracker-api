@@ -30,7 +30,7 @@ fun BlizzardHeroEntity.toDomain(): BlizzardHero =
         BlizzardHero(
                 heroId = userId,
                 name = name,
-                imageUrl = imageUrl
+                imageURL = imageUrl
         )
 
-fun BlizzardHero.toEntity() = BlizzardHeroEntity(heroId, name, imageUrl)
+fun BlizzardHero.toEntity() = BlizzardHeroEntity(heroId, name, imageURL)

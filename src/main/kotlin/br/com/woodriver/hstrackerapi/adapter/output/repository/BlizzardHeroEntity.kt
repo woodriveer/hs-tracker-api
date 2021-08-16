@@ -7,14 +7,10 @@ import org.apache.logging.log4j.util.Strings.EMPTY
 
 @DynamoDBTable(tableName = "HsHeroes")
 open class BlizzardHeroEntity(
-        @DynamoDBHashKey(attributeName = "UserId")
+        @DynamoDBHashKey(attributeName = "HeroId")
         var userId: String = EMPTY,
         @DynamoDBAttribute(attributeName = "Name")
         var name: String = EMPTY,
         @DynamoDBAttribute(attributeName = "ImageUrl")
         var imageUrl: String = EMPTY
-) {
-        companion object {
-                const val HERO_INFO = "hero-info"
-        }
-}
+)

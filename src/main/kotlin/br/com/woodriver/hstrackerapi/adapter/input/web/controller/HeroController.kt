@@ -1,9 +1,11 @@
 package br.com.woodriver.hstrackerapi.adapter.input.web.controller
 
 import br.com.woodriver.hstrackerapi.adapter.input.web.api.HeroAPI
-import br.com.woodriver.hstrackerapi.adapter.input.web.helper.toDomainBlizzardHero
+import br.com.woodriver.hstrackerapi.adapter.input.web.helper.toDomain
+import br.com.woodriver.hstrackerapi.adapter.input.web.helper.toHeroResponse
 import br.com.woodriver.hstrackerapi.adapter.input.web.helper.toResponse
-import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroRequest
+import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroIdRequest
+import br.com.woodriver.hstrackerapi.adapter.input.web.response.HeroResponse
 import br.com.woodriver.hstrackerapi.adapter.input.web.response.HeroesResponse
 import br.com.woodriver.hstrackerapi.application.port.input.ConsultAllHeroesUseCase
 import br.com.woodriver.hstrackerapi.application.port.input.SaveHeroUseCase
@@ -22,8 +24,8 @@ class HeroController(
         return consultAllHeroesUseCase.execute().toResponse()
     }
 
-    override fun save(heroRequest: HeroRequest) {
-        saveHeroUseCase.execute(heroRequest.toDomainBlizzardHero())
+    override fun save(heroIdRequest: HeroIdRequest): HeroResponse {
+        return saveHeroUseCase.execute(heroIdRequest.toDomain()).toHeroResponse()
     }
 
 }
