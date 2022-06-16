@@ -5,7 +5,7 @@ import br.com.woodriver.hstrackerapi.application.port.output.RepositoryPort
 import org.apache.logging.log4j.util.Strings.EMPTY
 
 class Hero(
-    var name: String,
+    var name: String = EMPTY,
     var completed: Boolean,
     var heroId: String = EMPTY,
     var portraitURL: String = EMPTY

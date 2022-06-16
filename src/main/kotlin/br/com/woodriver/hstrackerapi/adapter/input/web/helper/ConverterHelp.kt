@@ -15,7 +15,14 @@ fun User.toResponse(): CompletedHeroesResponse {
     val heroList = arrayListOf<CompletedHeroesResponse.HeroesResponse>()
     val heroes = heroes.values
     for (hero in heroes) {
-        heroList.add(CompletedHeroesResponse.HeroesResponse(hero.name, hero.completed))
+        heroList.add(
+            CompletedHeroesResponse.HeroesResponse(
+                name = hero.name, 
+                portraitURL = hero.portraitURL,
+                heroId = hero.heroId,
+                completed = hero.completed
+            )
+        )
     }
     return CompletedHeroesResponse(heroList)
 }
@@ -52,7 +59,7 @@ fun BlizzardHeroResponse.toDomain(): Hero =
         name = name,
         completed = false,
         heroId = slug,
-        portraitURL = imageGold
+        portraitURL = battlegrounds.imageGold
     )
 
-const val CLAIM_USER_ID = "userId"
+const val CLAIM_USER_ID = "user_name"
