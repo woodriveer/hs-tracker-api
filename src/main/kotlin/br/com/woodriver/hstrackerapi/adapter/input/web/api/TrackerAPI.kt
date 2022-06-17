@@ -18,7 +18,7 @@ interface TrackerAPI {
         @RequestBody heroRequest: HeroRequest
     )
 
-    @DeleteMapping(name = "Removed a specific hero from completeness")
+    @PutMapping(name = "Removed a specific hero from completeness")
     fun revertMarkCompletenessHero(
         @RequestHeader(value = AUTH_HEADER) authorization: String,
         @RequestBody heroRequest: HeroRequest

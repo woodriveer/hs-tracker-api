@@ -3,48 +3,62 @@ package br.com.woodriver.hstrackerapi.adapter.output.repository
 import br.com.woodriver.hstrackerapi.adapter.output.repository.UserEntity.Companion.USER_INFO
 import br.com.woodriver.hstrackerapi.adapter.output.repository.helper.toDomain
 import br.com.woodriver.hstrackerapi.adapter.output.repository.helper.toEntity
-import br.com.woodriver.hstrackerapi.application.domain.BlizzardHero
+import br.com.woodriver.hstrackerapi.application.domain.Hero
 import br.com.woodriver.hstrackerapi.application.domain.User
 import br.com.woodriver.hstrackerapi.application.port.output.RepositoryPort
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBQueryExpression
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBScanExpression
+import com.amazonaws.services.kms.model.NotFoundException
 import org.springframework.stereotype.Repository
 
 @Repository
-class DynamoRepository(val amazonDynamoDB: AmazonDynamoDB): RepositoryPort {
+class DynamoRepository(amazonDynamoDB: AmazonDynamoDB): RepositoryPort {
+    private val mapper = DynamoDBMapper(amazonDynamoDB)
+
     override fun findUser(id: String): User {
+        var returnUser = User(id = id, heroes = hashMapOf())
         val entity = UserEntity(userId = id, type = USER_INFO)
-        val mapper = DynamoDBMapper(amazonDynamoDB)
         val query = DynamoDBQueryExpression<UserEntity>()
             .withHashKeyValues(entity)
 
         val result = mapper.query(UserEntity::class.java, query)
-        return try {
-            result.first().toDomain()
-        } catch (ex: Exception) {
-            entity.toDomain()
-        }
+        if (!result.isEmpty())
+            returnUser = result.first().toDomain()
+        return returnUser
     }
 
     override fun save(user: User) {
-        val mapper = DynamoDBMapper(amazonDynamoDB)
         mapper.save(user.toEntity())
     }
 
-    override fun findAllHeroes(): List<BlizzardHero> {
-        val mapper = DynamoDBMapper(amazonDynamoDB)
-        val query = DynamoDBScanExpression()
-
-        val result = mapper.scan(BlizzardHeroEntity::class.java, query)
-        return result.map {
-            it.toDomain()
-        }
+    override fun save(hero: Hero) {
+        mapper.save(hero.toEntity())
     }
 
-    override fun save(blizzardHero: BlizzardHero) {
-        val mapper = DynamoDBMapper(amazonDynamoDB)
-        mapper.save(blizzardHero.toEntity())
+    override fun findHero(heroId: String): Hero {
+        val returnHero: Hero
+        val entity = HeroEntity(heroId = heroId)
+        val query = DynamoDBQueryExpression<HeroEntity>()
+            .withHashKeyValues(entity)
+
+        val result = mapper.query(HeroEntity::class.java, query)
+        if (!result.isEmpty())
+            returnHero = result.first().toDomain()
+        else
+            throw NotFoundException("Could not find [Hero=$heroId]")
+        return returnHero
+    }
+
+    override fun findAllHeroes(): List<Hero> {
+        val heroes = arrayListOf<Hero>()
+
+        val list = mapper.scan(HeroEntity::class.java, DynamoDBScanExpression())
+        list.forEach {
+            heroes.add(it.toDomain())
+        }
+
+        return heroes
     }
 }

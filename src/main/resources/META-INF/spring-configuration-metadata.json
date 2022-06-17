@@ -1,20 +1,23 @@
 {
   "properties": [
     {
-      "name": "aws.dynamo.secret",
+      "name": "blizzard.api.client-secret",
       "type": "java.lang.String",
-      "description": "Description for aws-dynamo.secret."
-  },{
-      "name": "aws.dynamo.key",
+      "description": "Blizzard client secret API"
+    },
+    {
+      "name": "blizzard.api.client-id",
       "type": "java.lang.String",
-      "description": "Description for aws-dynamo.secret."
-    },{
-      "name": "blizzard.api.key",
+      "description": "Blizzard client id for API"
+    },
+    {
+      "name": "blizzard.api.url",
       "type": "java.lang.String",
-      "description": "Description for aws-dynamo.secret."
-    },{
-      "name": "blizzard.api.secret",
+      "description": "Description for blizzard.api.url."
+    },
+    {
+      "name": "blizzard.api.url-auth",
       "type": "java.lang.String",
-      "description": "Description for aws-dynamo.secret."
+      "description": "Description for blizzard.api.url-auth."
     }
-] }
+  ] }

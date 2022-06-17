@@ -1,9 +1,9 @@
 package br.com.woodriver.hstrackerapi.adapter.output.repository.helper
 
-import br.com.woodriver.hstrackerapi.adapter.output.repository.BlizzardHeroEntity
+import br.com.woodriver.hstrackerapi.adapter.output.repository.HeroEntity
 import br.com.woodriver.hstrackerapi.adapter.output.repository.UserEntity
 import br.com.woodriver.hstrackerapi.adapter.output.repository.UserEntity.Companion.USER_INFO
-import br.com.woodriver.hstrackerapi.application.domain.BlizzardHero
+import br.com.woodriver.hstrackerapi.application.domain.Hero
 import br.com.woodriver.hstrackerapi.application.domain.User
 import br.com.woodriver.hstrackerapi.shared.jsonToObject
 import br.com.woodriver.hstrackerapi.shared.objectToJson
@@ -26,11 +26,18 @@ fun UserEntity.toDomain(): User {
     )
 }
 
-fun BlizzardHeroEntity.toDomain(): BlizzardHero =
-        BlizzardHero(
-                heroId = userId,
-                name = name,
-                imageURL = imageUrl
-        )
+fun Hero.toEntity(): HeroEntity =
+    HeroEntity(
+        heroId = heroId,
+        heroName = name,
+        portraitURL = portraitURL
+    )
 
-fun BlizzardHero.toEntity() = BlizzardHeroEntity(heroId, name, imageURL)
+fun HeroEntity.toDomain(): Hero {
+    return Hero(
+        name = heroName,
+        completed = false,
+        portraitURL = portraitURL,
+        heroId = heroId
+    )
+}

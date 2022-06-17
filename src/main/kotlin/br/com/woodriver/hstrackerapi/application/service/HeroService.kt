@@ -1,21 +1,26 @@
 package br.com.woodriver.hstrackerapi.application.service
 
-import br.com.woodriver.hstrackerapi.application.domain.BlizzardHero
-import br.com.woodriver.hstrackerapi.application.port.input.ConsultAllHeroesUseCase
-import br.com.woodriver.hstrackerapi.application.port.input.SaveHeroUseCase
-import br.com.woodriver.hstrackerapi.application.port.output.HeroesInfoPort
+import br.com.woodriver.hstrackerapi.application.domain.Hero
+import br.com.woodriver.hstrackerapi.application.domain.Heroes
+import br.com.woodriver.hstrackerapi.application.port.input.GetAllHeroesUseCase
+import br.com.woodriver.hstrackerapi.application.port.input.HeroInfoByNameUseCase
+import br.com.woodriver.hstrackerapi.application.port.output.HeroInfoPort
 import br.com.woodriver.hstrackerapi.application.port.output.RepositoryPort
 import org.springframework.stereotype.Service
 
 @Service
-class HeroService(val repositoryPort: RepositoryPort, val heroesInfoPort: HeroesInfoPort): ConsultAllHeroesUseCase, SaveHeroUseCase {
-
-    override fun execute(blizzardHero: BlizzardHero): BlizzardHero {
-        return blizzardHero.save(repositoryPort, heroesInfoPort)
+class HeroService(
+    val repositoryPort: RepositoryPort,
+    val heroInfoPort: HeroInfoPort
+): GetAllHeroesUseCase, HeroInfoByNameUseCase {
+    override fun execute(heroes: Heroes): List<Hero> {
+        heroes.getAllHeroes(repositoryPort)
+        return heroes.list
     }
 
-    override fun execute(): List<BlizzardHero> {
-        return BlizzardHero.consultAllHeroes(repositoryPort)
+    override fun execute(hero: Hero): Hero {
+        return hero.apply {
+            `load & save`(repositoryPort, heroInfoPort)
+        }
     }
-
 }
