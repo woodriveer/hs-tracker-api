@@ -1,7 +1,6 @@
 package br.com.woodriver.hstrackerapi.adapter.input.web.controller
 
 import br.com.woodriver.hstrackerapi.adapter.input.web.api.HeroesAPI
-import br.com.woodriver.hstrackerapi.adapter.input.web.helper.toDomain
 import br.com.woodriver.hstrackerapi.adapter.input.web.helper.toHeroDomain
 import br.com.woodriver.hstrackerapi.adapter.input.web.helper.toResponse
 import br.com.woodriver.hstrackerapi.adapter.input.web.request.HeroResponse

@@ -4,7 +4,6 @@ import br.com.woodriver.hstrackerapi.adapter.output.repository.UserEntity.Compan
 import br.com.woodriver.hstrackerapi.adapter.output.repository.helper.toDomain
 import br.com.woodriver.hstrackerapi.adapter.output.repository.helper.toEntity
 import br.com.woodriver.hstrackerapi.application.domain.Hero
-import br.com.woodriver.hstrackerapi.application.domain.Heroes
 import br.com.woodriver.hstrackerapi.application.domain.User
 import br.com.woodriver.hstrackerapi.application.port.output.RepositoryPort
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB
@@ -39,7 +38,7 @@ class DynamoRepository(amazonDynamoDB: AmazonDynamoDB): RepositoryPort {
     }
 
     override fun findHero(heroId: String): Hero {
-        var returnHero = Hero(name = "", completed = false)
+        val returnHero: Hero
         val entity = HeroEntity(heroId = heroId)
         val query = DynamoDBQueryExpression<HeroEntity>()
             .withHashKeyValues(entity)

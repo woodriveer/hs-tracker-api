@@ -11,13 +11,15 @@ import com.auth0.jwt.JWT
 
 fun String.toDomain() = User(id = getUserIdFromToken(this), hashMapOf())
 
+fun String.toHeroDomain() = Hero(heroId = this, completed = false)
+
 fun User.toResponse(): CompletedHeroesResponse {
     val heroList = arrayListOf<CompletedHeroesResponse.HeroesResponse>()
     val heroes = heroes.values
     for (hero in heroes) {
         heroList.add(
             CompletedHeroesResponse.HeroesResponse(
-                name = hero.name, 
+                name = hero.name,
                 portraitURL = hero.portraitURL,
                 heroId = hero.heroId,
                 completed = hero.completed
@@ -32,14 +34,10 @@ fun HeroRequest.toDomain(token: String) = User(
     heroes = hashMapOf(Pair(heroName, Hero(heroName, true)))
     )
 
-fun String.toHeroDomain(): Hero =
-    Hero(name = this, completed = false, heroId = this)
-
 private fun getUserIdFromToken(token: String): String{
     val jwt = JWT.decode(token)
     return jwt.getClaim(CLAIM_USER_ID).asString()
 }
-
 fun Hero.toResponse(): HeroResponse =
     HeroResponse(
         heroId = heroId,
@@ -61,5 +59,6 @@ fun BlizzardHeroResponse.toDomain(): Hero =
         heroId = slug,
         portraitURL = battlegrounds.imageGold
     )
+
 
 const val CLAIM_USER_ID = "user_name"

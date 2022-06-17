@@ -1,6 +1,5 @@
 package br.com.woodriver.hstrackerapi.adapter.output.feign.response
 
-import org.apache.logging.log4j.util.Strings
 import org.apache.logging.log4j.util.Strings.EMPTY
 
 data class BlizzardHeroResponse(
