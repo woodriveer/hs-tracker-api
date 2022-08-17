@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89d805ec-44de-479b-9c8b-c61746c8ee19" name="Default Changelist" comment="Added project to git">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/controller/HeroesControllerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/HeroInfoClientTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepositoryTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/application/service/HeroServiceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/application/service/UserServiceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/utils/RandomExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/appengine/app.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-tracker-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tracker-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/heroes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/heroes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/api/HeroesAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/api/HeroesAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/HeroEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/HeroEntity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Hero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Hero.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/service/HeroService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/service/HeroService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/hs-tracker-api.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/hs-tracker-api.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +277,7 @@
       <workItem from="1656892463249" duration="6282000" />
       <workItem from="1658906154114" duration="87000" />
       <workItem from="1660403969357" duration="51000" />
-      <workItem from="1660702883473" duration="3052000" />
+      <workItem from="1660702883473" duration="3533000" />
     </task>
     <task id="LOCAL-00001" summary="Added project to git">
       <created>1625698848865</created>
