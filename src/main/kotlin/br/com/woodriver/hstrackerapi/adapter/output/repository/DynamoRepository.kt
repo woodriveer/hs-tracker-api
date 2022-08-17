@@ -14,9 +14,7 @@ import com.amazonaws.services.kms.model.NotFoundException
 import org.springframework.stereotype.Repository
 
 @Repository
-class DynamoRepository(amazonDynamoDB: AmazonDynamoDB): RepositoryPort {
-    private val mapper = DynamoDBMapper(amazonDynamoDB)
-
+class DynamoRepository(private val mapper: DynamoDBMapper): RepositoryPort {
     override fun findUser(id: String): User {
         var returnUser = User(id = id, heroes = hashMapOf())
         val entity = UserEntity(userId = id, type = USER_INFO)

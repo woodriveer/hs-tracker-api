@@ -5,22 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89d805ec-44de-479b-9c8b-c61746c8ee19" name="Default Changelist" comment="Added project to git">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/helper/GameModes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/helper/Locales.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/request/BlizzardTokenRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/config/DynamoProperties.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/exceptions/HeroException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/shared/ErrorHandleController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/controller/HeroesControllerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/HeroInfoClientTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepositoryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/application/service/HeroServiceTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/application/service/UserServiceTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/utils/RandomExtension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/controller/HeroesController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/controller/HeroesController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/response/BlizzardHeroResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/response/BlizzardHeroResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tracker-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tracker-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/heroes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/heroes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/api/HeroesAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/input/web/api/HeroesAPI.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/UserEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/UserEntity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelpKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelpKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/HeroEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/HeroEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Hero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/Hero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/service/HeroService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/service/HeroService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/UserEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/hs-tracker-api.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/hs-tracker-api.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +43,7 @@
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,6 +64,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1up8xVBS63c1YO0VhIQdM6YrewX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -67,13 +84,24 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;557fa544d198bd10c35399ddeabc66f3&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="br.com.woodriver.hstrackerapi.adapter.output.feign.client" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.woodriver.hstrackerapi.adapter.input.web.controller" />
+      <recent name="br.com.woodriver.hstrackerapi.adapter.output.feign" />
+      <recent name="br.com.woodriver.hstrackerapi.adapter.output.repository" />
+      <recent name="br.com.woodriver.hstrackerapi.application.service" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="br.com.woodriver.hstrackerapi.adapter.output.repository" />
@@ -84,11 +112,82 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HsTrackerApiApplication">
-    <configuration name="HsTrackerApiApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.woodriver.hstrackerapi.HsTrackerApiApplicationKt" />
+    <configuration name="DynamoRepositoryTest.notFoundHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hs-tracker-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.woodriver.hstrackerapi.adapter.output.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.woodriver.hstrackerapi.adapter.output.repository" />
+      <option name="MAIN_CLASS_NAME" value="br.com.woodriver.hstrackerapi.adapter.output.repository.DynamoRepositoryTest" />
+      <option name="METHOD_NAME" value="notFoundHero" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamoRepositoryTest.notFoundUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hs-tracker-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.woodriver.hstrackerapi.adapter.output.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.woodriver.hstrackerapi.adapter.output.repository" />
+      <option name="MAIN_CLASS_NAME" value="br.com.woodriver.hstrackerapi.adapter.output.repository.DynamoRepositoryTest" />
+      <option name="METHOD_NAME" value="notFoundUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroInfoClientTest.getHeroInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hs-tracker-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.woodriver.hstrackerapi.adapter.output.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.woodriver.hstrackerapi.adapter.output.feign" />
+      <option name="MAIN_CLASS_NAME" value="br.com.woodriver.hstrackerapi.adapter.output.feign.HeroInfoClientTest" />
+      <option name="METHOD_NAME" value="getHeroInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroesControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hs-tracker-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.woodriver.hstrackerapi.adapter.input.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.woodriver.hstrackerapi.adapter.input.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.com.woodriver.hstrackerapi.adapter.input.web.controller.HeroesControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroesControllerTest.getHeroInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hs-tracker-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.woodriver.hstrackerapi.adapter.input.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.woodriver.hstrackerapi.adapter.input.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.com.woodriver.hstrackerapi.adapter.input.web.controller.HeroesControllerTest" />
+      <option name="METHOD_NAME" value="getHeroInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -137,23 +236,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      <item itemvalue="Kotlin.HsTrackerApiApplicationKt" />
+      <item itemvalue="JUnit.DynamoRepositoryTest.notFoundHero" />
+      <item itemvalue="JUnit.DynamoRepositoryTest.notFoundUser" />
+      <item itemvalue="JUnit.HeroInfoClientTest.getHeroInfo" />
+      <item itemvalue="JUnit.HeroesControllerTest" />
+      <item itemvalue="JUnit.HeroesControllerTest.getHeroInfo" />
       <item itemvalue="Maven.hs-tracker-api [clean,install]" />
       <item itemvalue="Spring Boot.HsTrackerApiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="JUnit.HeroesControllerTest.getHeroInfo" />
+        <item itemvalue="JUnit.HeroesControllerTest" />
+        <item itemvalue="JUnit.HeroInfoClientTest.getHeroInfo" />
+        <item itemvalue="JUnit.DynamoRepositoryTest.notFoundUser" />
+        <item itemvalue="JUnit.DynamoRepositoryTest.notFoundHero" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +293,13 @@
       <workItem from="1655360665368" duration="1847000" />
       <workItem from="1655364406250" duration="1190000" />
       <workItem from="1655390085319" duration="4887000" />
+      <workItem from="1656506662376" duration="4439000" />
+      <workItem from="1656857274344" duration="6606000" />
+      <workItem from="1656886465087" duration="1685000" />
+      <workItem from="1656892463249" duration="6282000" />
+      <workItem from="1658906154114" duration="87000" />
+      <workItem from="1660403969357" duration="51000" />
+      <workItem from="1660702883473" duration="3052000" />
     </task>
     <task id="LOCAL-00001" summary="Added project to git">
       <created>1625698848865</created>
@@ -208,6 +313,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added project to git" />
@@ -226,10 +342,44 @@
           <line>18</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/application/domain/User.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepositoryTest.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepositoryTest.kt</url>
+          <line>56</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepositoryTest.kt</url>
+          <line>107</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/HeroInfoClient.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hs_tracker_api$HsTrackerApiApplicationTests.ic" NAME="HsTrackerApiApplicationTests Coverage Results" MODIFIED="1656564803081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.woodriver.hstrackerapi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hs_tracker_api$All_in_hs_tracker_api.ic" NAME="All in hs-tracker-api Coverage Results" MODIFIED="1656862071015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/hs_tracker_api$HsTrackerApiApplicationKt.ic" NAME="HsTrackerApiApplicationKt Coverage Results" MODIFIED="1625537404348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
