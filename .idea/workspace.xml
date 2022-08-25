@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89d805ec-44de-479b-9c8b-c61746c8ee19" name="Default Changelist" comment="Added project to git">
-      <change afterPath="$PROJECT_DIR$/src/main/appengine/app.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/response/BlizzardHeroResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/woodriver/hstrackerapi/adapter/output/feign/response/BlizzardHeroResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/controller/TrackerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/controller/TrackerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelpKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/input/web/helper/ConverterHelpKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/DynamoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/adapter/output/repository/config/AmazonDynamoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/application/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/shared/JsonExtensionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/shared/JsonExtensionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/shared/LoggerExtensionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/woodriver/hstrackerapi/shared/LoggerExtensionsKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +286,9 @@
       <workItem from="1656892463249" duration="6282000" />
       <workItem from="1658906154114" duration="87000" />
       <workItem from="1660403969357" duration="51000" />
-      <workItem from="1660702883473" duration="3533000" />
+      <workItem from="1660702883473" duration="5518000" />
+      <workItem from="1660823029865" duration="594000" />
+      <workItem from="1661126063412" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="Added project to git">
       <created>1625698848865</created>

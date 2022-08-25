@@ -19,7 +19,7 @@ data class BlizzardHeroResponse(
     var image: String = EMPTY,
     var imageGold: String = EMPTY,
     var flavorText: String = EMPTY,
-    var cropImage: String = EMPTY,
+    var cropImage: String? = EMPTY,
     var childIds: ArrayList<Int> = arrayListOf(),
     var battlegrounds: Battlegrounds = Battlegrounds()
 ) {
